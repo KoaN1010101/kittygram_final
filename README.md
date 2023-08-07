@@ -108,7 +108,7 @@ sudo snap install --classic certbot
 certbot 2.3.0 from Certbot Project (certbot-eff✓) installed
 ```
 # Создание ссылки на certbot в системной директории,
-# чтобы у пользователя с правами администратора был доступ к этому пакету.
+# Чтобы у пользователя с правами администратора был доступ к этому пакету.
 ```
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
