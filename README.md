@@ -96,15 +96,17 @@ sudo apt install snapd
 sudo snap install core; sudo snap refresh core
 ```
 # При успешной установке зависимостей в терминале выведется:
-# core 16-2.58.2 from Canonical✓ installed 
-
+```
+core 16-2.58.2 from Canonical✓ installed 
+```
 # Установка пакета certbot.
 ```
 sudo snap install --classic certbot
 ```
 # При успешной установке пакета в терминале выведется:
-# certbot 2.3.0 from Certbot Project (certbot-eff✓) installed
-
+```
+certbot 2.3.0 from Certbot Project (certbot-eff✓) installed
+```
 # Создание ссылки на certbot в системной директории,
 # чтобы у пользователя с правами администратора был доступ к этому пакету.
 ```
@@ -125,5 +127,5 @@ sudo systemctl reload nginx
 - Nginx
 - PostgreSQL
 - Docker
-# Над проектом работал:
+# Автор:
 **Никулин Владимир**
